@@ -30,7 +30,7 @@ public class Main { //mvn exec:java -Dexec.mainClass="com.Main"
         int k = Integer.parseInt(inK.nextLine());
 
         Scanner inchoose = new Scanner(System.in);
-        System.out.printf("Choose hash function (1 - sha2, 2 - sha3, 3 - Kupyna):\n"); //16
+        System.out.printf("Choose hash function (1 - SHA-2, 2 - SHA-3, 3 - Kupyna):\n"); //16
         int choose = Integer.parseInt(inchoose.nextLine());
 
         int t = (int) Math.pow(2, (S / k)); //256
